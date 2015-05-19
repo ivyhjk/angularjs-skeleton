@@ -1,0 +1,16 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"description": "Template for angular projects",
+	"authors": [
+		"Lastview"
+	],
+	"license": "MIT",
+	"homepage": "/",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"test",
+		"tests"
+	]
+}

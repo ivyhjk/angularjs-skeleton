@@ -1,0 +1,42 @@
+<!doctype html>
+<html ng-app="angularApp">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <title>App</title>
+        
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+    </head>
+    <body>
+            <header ui-view="menu" class="principal-menu"></header>
+        <section class="container">
+            <ui-view></ui-view>
+        </section>
+
+        <!-- Components -->
+        <script type="text/javascript" src="bower_components/angularjs/angular.js"></script>
+        <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <!-- /Components -->
+
+        <!-- App Core -->
+        <script type="text/javascript" src="src/app.js"></script>
+        <!-- App /Core -->
+
+        <!-- App Routes -->
+        <script type="text/javascript" src="src/routes/home.js"></script>
+        <!-- /App Routes -->
+
+        <!-- App Factories -->
+        <script type="text/javascript" src="src/factories/shared.js"></script>
+        <!-- /App Factories -->
+
+        <!-- App Controllers -->
+        <script type="text/javascript" src="src/controllers/home.js"></script>
+        <!-- /App Controllers -->
+    </body>
+</html>
