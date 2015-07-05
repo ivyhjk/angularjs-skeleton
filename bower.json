@@ -12,5 +12,10 @@
         "node_modules",
         "test",
         "tests"
-    ]
+    ],
+    "dependencies" : {
+        "bootstrap" : ">= 3.3.5",
+        "angular" : ">= 1.4.1",
+        "font-awesome" : "*"
+    }
 }
